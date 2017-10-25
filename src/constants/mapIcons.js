@@ -22,6 +22,10 @@ export default {
   docker: [
     'docker-compose',
   ],
+  ethereum: [
+    'ethereum',
+    'testrpc',
+  ],
   git: [
     'git-remote-ftp',
     'git-remote-ftps',

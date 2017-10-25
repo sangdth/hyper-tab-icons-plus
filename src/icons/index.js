@@ -12,6 +12,7 @@ export composer from './composer.svg';
 export curl from './curl.svg';
 export database from './database.svg';
 export docker from './docker.svg';
+export ethereum from './ethereum.svg';
 export git from './git.svg';
 export go from './go.svg';
 export grunt from './grunt.svg';

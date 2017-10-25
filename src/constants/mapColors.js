@@ -2,6 +2,7 @@ export default {
   bash: '#FFF',
   docker: '#0EB7ED',
   'docker-compose': '#0EB7ED',
+  ethereum: '#8A93B1',
   fish: '#D8494F',
   nodejs: '#7EBF00',
   node: '#7EBF00',
