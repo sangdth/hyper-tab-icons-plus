@@ -1,8 +1,8 @@
-# Hyper.app Tab Icons
+# Hyper Tab Icons (Plus)
 
 > Icons in the header tabs for the current running process in Hyper.app.
 
-## How It Works
+#### How It Works
 
 Uses [fuzzaldrin][fuzzaldrin] to try to match the current tab title with the SVG
 icons that have been added to the repo, then displays the matched icon. Has the
@@ -10,13 +10,13 @@ ability to map different icons and styles.
 
 [fuzzaldrin]: https://github.com/atom/fuzzaldrin
 
-### Demo
+#### Demo
 
 ![alt demo][demo gif]
 
 [demo gif]: http://i.giphy.com/pb6hCi4j0ErpC.gif
 
-### Configuration
+## Configuration
 
 There are few options to customize the different icons and styles applied.
 You may configure these inside of `~/.hyper.js`.
@@ -135,14 +135,37 @@ The index of the match out of the array of matches made by
 > An index of `0` is the full match made by the regex. An index of `1` or more
 > is used to get an exact match from one of the matching groups.
 
-### Contribution
+## Contribution
 
 There are an almost infinite amount of processes out there, so any help adding
 new icons, mapping colors, et cetera is greatly appreciated!
 
-### Credit
+#### 1. Add new icon
+Add `newicon.svg` icon into `src/icons/` folder, then edit the file `src/icons/index.js`
+```
+export newicon from './newicon.svg';
+```
+#### 2. Map icon to process's name
+Then, edit `src/constants/mapIcons.js`, please note:
+```
+newicon: [
+    'process-name-1',
+    'process-name-2',
+    'process-name-3',
+    'process-name-4',
+  ],
+```
+`newicon` should match the name you have exported above, but the array is the name of processes. Make example, we use `shell` icon for all kinds of `bash`, `fish` and `zsh` process.
+#### 3. Map color
+Now you can map color by editing `src/constants/mapColors.js` file. Please note that you need to use the `process-name` to map the color, not `icon` name.
+
+Then run `npm run build` to make the build.
+
+## Credit
 
 Inspired by [Atom's][atom] [`file-icons`][file-icons].
+This project was first initiated by [Dylan Frankland][original-project], I forked it and add more stuffs here.
 
 [atom]: http://atom.io/
 [file-icons]: https://github.com/DanBrooker/file-icons
+[original-project]: https://github.com/dfrankland/hyper-tab-icons
