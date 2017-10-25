@@ -1,7 +1,7 @@
 {
-  "name": "hyper-tab-icons",
-  "version": "2.1.0",
-  "description": "Icons in the header tabs for the current running process in Hyper.app.",
+  "name": "hyper-tab-icons-plus",
+  "version": "2.2.0",
+  "description": "Icons in the header tabs for the current running process in Hyper.",
   "main": "./dist/index.js",
   "files": [
     "dist/index.js"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dfrankland/hyper-tab-icons.git"
+    "url": "git+https://github.com/sangdth/hyper-tab-icons-plus.git"
   },
   "keywords": [
     "hyperterm",
@@ -23,12 +23,12 @@
     "icons",
     "cool"
   ],
-  "author": "Dylan Frankland <dylan@frankland.io>",
+  "author": "Sang Dang <sangdth@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dfrankland/hyper-tab-icons/issues"
+    "url": "https://github.com/sangdth/hyper-tab-icons-plus/issues"
   },
-  "homepage": "https://github.com/dfrankland/hyper-tab-icons#readme",
+  "homepage": "https://github.com/sangdth/hyper-tab-icons-plus#readme",
   "dependencies": {
     "fuzzaldrin": "^2.1.0",
     "prop-types": "^15.5.10",
