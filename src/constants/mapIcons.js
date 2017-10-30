@@ -63,6 +63,7 @@ export default {
     'more',
   ],
   zip: [
+    'unzip',
     'zip',
     'tar',
     'gz',
