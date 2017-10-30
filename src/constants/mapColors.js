@@ -1,5 +1,6 @@
 export default {
   bash: '#FFF',
+  curl: '#9CCC65',
   docker: '#0EB7ED',
   'docker-compose': '#0EB7ED',
   ethereum: '#8A93B1',
