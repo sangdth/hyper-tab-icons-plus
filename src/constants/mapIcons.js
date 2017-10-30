@@ -62,4 +62,11 @@ export default {
     'less',
     'more',
   ],
+  zip: [
+    'zip',
+    'tar',
+    'gz',
+    'winzip',
+    'zar',
+  ],
 };

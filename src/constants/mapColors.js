@@ -19,5 +19,6 @@ export default {
   testrpc: '#8A93B1',
   vim: '#007f00',
   yarn: '#2C8EBB',
+  zip: '#FD9126',
   zsh: '#C5DB00',
 };

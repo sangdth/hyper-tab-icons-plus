@@ -37,3 +37,4 @@ export ruby from './ruby.svg';
 export shell from './shell.svg';
 export vim from './vim.svg';
 export yo from './yo.svg';
+export zip from './zip.svg';
