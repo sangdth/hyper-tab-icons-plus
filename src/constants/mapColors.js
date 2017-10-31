@@ -14,6 +14,7 @@ export default {
   mongo: '#589636',
   nodejs: '#7EBF00',
   node: '#7EBF00',
+  ping: '#00aeff',
   python: '#FFDF59',
   rails: '#CC0000',
   ruby: '#CC342D',

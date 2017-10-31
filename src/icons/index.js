@@ -4,6 +4,7 @@ import React from 'react'; // eslint-disable-line no-unused-vars
 export atom from './atom.svg';
 export bower from './bower.svg';
 export bq from './bq.svg';
+export bullhorn from './bullhorn.svg';
 export clojure from './clojure.svg';
 export code from './code.svg';
 export coffee from './coffee.svg';

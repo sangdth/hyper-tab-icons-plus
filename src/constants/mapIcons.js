@@ -1,4 +1,7 @@
 export default {
+  bullhorn: [
+    'ping',
+  ],
   compile: [
     'cc',
     'ccache',
