@@ -1,12 +1,11 @@
 # Hyper Tab Icons (Plus)
 
-> Icons in the header tabs for the current running process in Hyper.app.
+> Improved forked version of Hyper Tab Icons from Dylan Frankland, displays icons in the header tabs for the current running process in Hyper terminal.
 
 #### How It Works
 
 Uses [fuzzaldrin][fuzzaldrin] to try to match the current tab title with the SVG
-icons that have been added to the repo, then displays the matched icon. Has the
-ability to map different icons and styles.
+icons that have been added to the repo, then displays the matched icon. Has the ability to map different icons and styles.
 
 [fuzzaldrin]: https://github.com/atom/fuzzaldrin
 
@@ -15,6 +14,7 @@ ability to map different icons and styles.
 ![alt demo][demo gif]
 
 [demo gif]: http://i.giphy.com/pb6hCi4j0ErpC.gif
+
 
 ## Configuration
 
@@ -159,7 +159,7 @@ newicon: [
 #### 3. Map color
 Now you can map color by editing `src/constants/mapColors.js` file. Please note that you need to use the `process-name` to map the color, not `icon` name.
 
-Then run `npm run build` to make the build.
+Then run `npm run build` to make the build if you want.
 
 ## Credit
 
