@@ -34,6 +34,7 @@ export python from './python.svg';
 export rails from './rails.svg';
 export read from './read.svg';
 export ruby from './ruby.svg';
+export search from './search.svg';
 export shell from './shell.svg';
 export vim from './vim.svg';
 export yo from './yo.svg';

@@ -49,6 +49,11 @@ export default {
     'sidekiq',
     'rake',
   ],
+  search: [
+    'search',
+    'find',
+    'lookup',
+  ],
   shell: [
     'bash',
     'fish',
