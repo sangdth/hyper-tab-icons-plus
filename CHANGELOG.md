@@ -1,3 +1,6 @@
+#### 18.11.2017
+- v2.2.5 Add `geth` to ethereum array. Add some colors.
+
 #### 31.10.2017
 - v2.2.3: Add find icon, use for find, search.
 - v2.2.4: Add ping icon.

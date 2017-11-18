@@ -1,6 +1,6 @@
 {
   "name": "hyper-tab-icons-plus",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "Icons in the header tabs for the current running process in Hyper.",
   "main": "./dist/index.js",
   "files": [

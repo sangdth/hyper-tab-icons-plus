@@ -1,4 +1,5 @@
 export default {
+  atom: '#7CB342',
   bash: '#FFF',
   curl: '#9CCC65',
   docker: '#0EB7ED',
@@ -6,6 +7,7 @@ export default {
   ethereum: '#8A93B1',
   fish: '#D8494F',
   find: '#9CCC65',
+  geth: '#B2FF59',
   git: '#fc6d26',
   gulp: '#CF4647',
   npm: '#C12127',
@@ -21,8 +23,9 @@ export default {
   search: '#9CCC65',
   shell: '#00aeff',
   testrpc: '#8A93B1',
+  unzip: '#FD9126',
   vim: '#007f00',
   yarn: '#2C8EBB',
   zip: '#FD9126',
-  zsh: '#C5DB00',
+  zsh: '#C5DB00'
 };
