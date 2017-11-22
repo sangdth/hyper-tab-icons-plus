@@ -6,6 +6,7 @@ export default {
   docker: ['docker-compose'],
   ethereum: ['ethereum', 'geth', 'testrpc'],
   git: ['git-remote-ftp', 'git-remote-ftps', 'git-remote-http', 'git-remote-https'],
+  heroku: ['heroku'],
   http: ['wget', 'http'],
   monitor: ['htop', 'iftop', 'top'],
   nodejs: ['node'],

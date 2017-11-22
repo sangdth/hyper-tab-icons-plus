@@ -1,3 +1,6 @@
+#### 22.11.2017
+- v2.2.6 Add `heroku` logo.
+
 #### 18.11.2017
 - v2.2.5 Add `geth` to ethereum array. Add some colors.
 

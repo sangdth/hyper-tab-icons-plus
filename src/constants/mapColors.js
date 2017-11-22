@@ -10,6 +10,7 @@ export default {
   geth: '#B2FF59',
   git: '#fc6d26',
   gulp: '#CF4647',
+  heroku: '#6762a6',
   npm: '#C12127',
   make: '#00aeff',
   mongod: '#589636',

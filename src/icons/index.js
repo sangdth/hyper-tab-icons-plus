@@ -18,6 +18,7 @@ export git from './git.svg';
 export go from './go.svg';
 export grunt from './grunt.svg';
 export gulp from './gulp.svg';
+export heroku from './heroku.svg';
 export http from './http.svg';
 export java from './java.svg';
 export less from './less.svg';
