@@ -15,5 +15,6 @@ export default {
   shell: ['bash', 'fish', 'zsh'],
   code: ['pico'],
   read: ['tail', 'less', 'more'],
-  zip: ['unzip', 'zip', 'tar', 'gz', 'winzip', 'zar']
+  yarn: ['yarn', 'yarnpkg'],
+  zip: ['unzip', 'zip', 'tar', 'gz', 'winzip', 'zar'],
 };

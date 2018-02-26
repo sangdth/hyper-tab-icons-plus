@@ -28,5 +28,5 @@ export default {
   vim: '#007f00',
   yarn: '#2C8EBB',
   zip: '#FD9126',
-  zsh: '#C5DB00'
+  zsh: '#C5DB00',
 };
