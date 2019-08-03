@@ -11,6 +11,7 @@ export default {
   git: '#fc6d26',
   gulp: '#CF4647',
   heroku: '#6762a6',
+  julia: '#800080',
   npm: '#C12127',
   make: '#00aeff',
   mongod: '#589636',
