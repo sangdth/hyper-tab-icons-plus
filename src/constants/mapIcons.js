@@ -8,6 +8,7 @@ export default {
   git: ['git-remote-ftp', 'git-remote-ftps', 'git-remote-http', 'git-remote-https'],
   heroku: ['heroku'],
   http: ['wget', 'http'],
+  julia: ['julia', 'julia-debug'],
   monitor: ['htop', 'iftop', 'top'],
   nodejs: ['node'],
   ruby: ['irb', 'sidekiq', 'rake'],
