@@ -21,6 +21,7 @@ export gulp from './gulp.svg';
 export heroku from './heroku.svg';
 export http from './http.svg';
 export java from './java.svg';
+export julia from './julia.svg';
 export less from './less.svg';
 export micro from './micro.svg';
 export monitor from './monitor.svg';
