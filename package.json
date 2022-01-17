@@ -31,9 +31,9 @@
   "homepage": "https://github.com/sangdth/hyper-tab-icons-plus#readme",
   "dependencies": {
     "fuzzaldrin": "^2.1.0",
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "styled-components": "^2.1.2"
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "styled-components": "^4.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
